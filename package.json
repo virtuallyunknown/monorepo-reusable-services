@@ -1,0 +1,14 @@
+{
+    "name": "monorepo-reusable-services",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "turbo run start"
+    },
+    "workspaces": [
+        "apps/*"
+    ],
+    "devDependencies": {
+        "turbo": "^1.10.12"
+    }
+}

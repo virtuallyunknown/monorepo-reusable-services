@@ -1,0 +1,15 @@
+{
+    "name": "@repo/baz",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "workspaces": [
+        "apps/*"
+    ],
+    "devDependencies": {
+        "@repo/service": "*",
+        "turbo": "^1.10.12"
+    }
+}

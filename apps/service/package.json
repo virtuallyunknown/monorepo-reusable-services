@@ -1,0 +1,16 @@
+{
+    "name": "@repo/service",
+    "version": "1.0.0",
+    "type": "module",
+    "workspaces": [
+        "apps/*"
+    ],
+    "exports": {
+        ".": {
+            "import": "./index.js"
+        }
+    },
+    "devDependencies": {
+        "turbo": "^1.10.12"
+    }
+}
